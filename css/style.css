@@ -43,11 +43,11 @@ nav ul li:nth-child(2),nav ul li:nth-child(3),nav ul li:nth-child(4),nav ul li:n
 
 }
 
-main section img{
+main  img{
     padding-left: 150px;
     
 }
-main section{
+main c {
     margin: 13px;
     margin:50px;
 }
@@ -89,4 +89,7 @@ button {
         height: 100px;
         background-color: #3a3a3a;
     }
+
+
+
 
