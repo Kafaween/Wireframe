@@ -1,85 +1,84 @@
-* {
-    box-sizing: border-box;
+nav {
+    background-color: #1f1f1f;
+    height: 90px;
 }
-body{
-    margin: 0px;
-    padding: 0px;
+
+nav div {
+    width: 1000px;
+    margin: 0 auto;
 }
- header{
-     background-color: rgb(56, 56, 56);
-     height: 130px;
-     
- }
-  header img {
-     position: relative;
-     left: 10%;
-     top: 30px;
-     
- }
 
- header div{
-    position: absolute;
-    top: -20px;
-    left: 25%;
-
- }
- 
- header div ul li{
+nav ul li {
+    color: #919191;
     display: inline-block;
-    margin: 60px;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 35px;
+}
+
+nav img {
+    margin-left: 20px;
+    float: left;
+    padding: 10px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+main cover img:first-of-type {
+    width: 960px;
+    height: 450px;
+    margin: 30px auto;
+}
+
+main img {
+    width: 33.33%;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+main div {
+    display: flex;
+}
+
+main section {
+    margin-top: 30px;
+    display: flex;
+}
+
+main section img {
+    width: 480px;
+    height: 400px;
+}
+
+main section div p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    width: 100%;
+}
+
+button {
+    float: right;
+    margin-left: 11px;
+}
+
+button {
+    color: #A1A1A1;
+    background-color: black;
+    width: 200px;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
     
- }
- main #one{
-     position: relative;
-     left: 10%;
-     padding-top: 30px;
-     width: 80%;
+}
 
- }
- main #two{
-     width: 80%;
-    position: relative;
-     left: 10%;
-     padding-top: 30px;
- }
- main #two img:nth-child(2),main #two img:nth-child(3){
-     margin-left: 35px;
- }
- main #two img{
-    width: 470px;
- }
-
- main #three{
- position: relative;
-     left: 10%;
-     padding-top: 30px;
-     width: 50%;
-     float: left;
-
- }
- main #four{
-     position: relative;
-     left:12%;
-     padding-top: 20px;
-     width: 71%;
- }
- main #four p{
-     font-weight: bold;
-     font-size: large;
-
- }
- main #four button{
-     width: 200px;
-     height: 60px;
-     margin-top:50px;
-     background-color: #000000;
-     color: white;
- }
-     
-
- footer{
-     clear: both;
-     margin-top: 50px;
-    background-color: rgb(56, 56, 56);
-    height: 130px;
- }
+footer {
+    height: 100px;
+    background-color: #1f1f1f;
+}
